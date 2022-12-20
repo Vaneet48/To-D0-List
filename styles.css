@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2940D3;
+    font-family: 'Lato', sans-serif;
+}
+
+#page {
+    background-color: #fff;
+    min-height: 79vh;
+    margin: 5% 10%;
+    border-radius: 9px;
+}
+
+.list {
+    margin-left: 60px;
+    padding-bottom: 60px;
+}
+
+h1 {
+    padding-top: 35px;
+    margin: 0px 60px 12px 0px;
+    font-size: 50px;
+}
+
+p {
+    margin: 5px 0px 20px 0px;
+}
+
+input {
+    border-radius: 0px;
+    border: 1px #555 solid;
+    padding: 6px 5px 6px 5px;
+    width: 310px;
+}
+
+.sub {
+    font-size: 16px;
+    color: #fff;
+    background-color:  #2940D3;
+    margin: 0px 0px 0px 8px;
+    padding: 5px 18px;
+    border: 1px solid #2940D3;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sub:hover {
+    background-color:  #1937b1;
+}
+
+ol {
+    width: inherit;
+    height: inherit;
+    margin: 15px 0px 0px 18px;
+}
+
+li {
+    font-size: 17px;
+    cursor: pointer;
+    margin: 12px 100px 12px 0px;
+}
+
+
+.remove, .empty, .clear {
+    font-size: 16px;
+    color: #fff;
+    margin: 20px 15px 0px 0px;
+    padding: 5px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.remove {
+    background-color: #2940D3;
+    border: 1px solid #2940D3;
+}
+
+.remove:hover {
+    background-color: #1937b1;
+}
+
+.clear {
+    background-color: #289672;
+    border: 1px solid #289672;
+}
+
+.clear:hover {
+    background-color: #1E6F5C;
+}
+
+.empty {
+    background-color: #FF2626;
+    border: 1px solid #FF2626;
+}
+
+.empty:hover {
+    background-color: #BD1616;
+}
+
+
+/* js style  */
+.strike {
+    text-decoration: line-through;
+    color: #464F41;
+}
+
+.deleted {
+    display: none;
+}

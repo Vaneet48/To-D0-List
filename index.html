@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>ToDo list</title>
+</head>
+<body>
+    <div id="page">
+        <div class="list">
+            <h1>My to-do List</h1>
+            <p>Double click an item to mark it complete.</p>
+            <form>
+                <input type="text" name="task" id="task" placeholder="add item">
+                <button class="sub">Add</button>
+                    <ol type="1"></ol>
+            </form>
+            <button class="remove">Remove Item</button>
+            <button class="empty">Empty List</button>
+            <button class="clear">Clear Completed</button>
+        </div>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
